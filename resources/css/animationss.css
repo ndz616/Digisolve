@@ -1,0 +1,44 @@
+/* nav animate */
+.sticky-nav{ 
+    position:fixed;
+    z-index: 999; /* this make the sticky nav above all else */
+    left: 0;
+    top: 0;
+    background-color:rgba(255,255,255,.8);
+    width: 100%;
+    box-shadow:0 2px 2px #efefef;
+    -webkit-animation: 3s;
+            animation: 3s;
+    
+}
+.sticky-nav .logo{
+    height:60px;
+    margin-top:3px;
+}
+.sticky-nav .main-nav{
+    margin-top:25px ;
+}
+.sticky-nav .main-nav li a:link,
+.sticky-nav .main-nav li a:visited {
+    color: black;
+    color: #555;
+    font-weight: 500;
+    padding:5px 0;
+}
+
+
+/* jquary animate on scroll */
+.js--about-box{
+    opacity:0;
+    -webkit-animation-duration: 9ms;
+            animation-duration: 9ms;
+}
+.js--about-box.animate_animated{
+    opacity: 1;
+}
+
+/* jqaury animate on services */
+.js--service-box{
+    -webkit-animation-duration: 4s;
+            animation-duration: 4s;
+}
