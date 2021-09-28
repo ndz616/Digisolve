@@ -29,8 +29,8 @@ html,body{
 }
 /* header-section */
 header{
-    background:-webkit-linear-gradient(rgba(0,0,0,.4),rgb(0,0,0)), url('resources/img/bg.jpg');
-    background:linear-gradient(rgba(0,0,0,.4),rgb(0,0,0)), url('resources/img/bg.jpg');
+    background-image:-webkit-linear-gradient(rgba(0,0,0,.4),rgb(0,0,0)), url('resources/img/bg.jpg');
+    background-image:linear-gradient(rgba(0,0,0,.4),rgb(0,0,0)), url('resources/img/bg.jpg');
     height: 100vh;
     background-size: cover;
     background-position: center;
